@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial;
+  padding: 10px;
+  background: #636363;
+}
+
+/* Header/Blog Title */
+.header {
+  padding: 30px;
+  text-align: center;
+  background: rgb(144, 176, 245);
+}
+
+.header h1 {
+  font-size: 50px;
+}
+
+/* Style the top navigation bar */
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+}
+
+/* Style the topnav links */
+.topnav a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: white;
+}
+
+/* Change color on hover */
+.topnav a:hover {
+  background-color: #636363;
+  color: black;
+}
+
+/* Create two unequal columns that floats next to each other */
+/* Left column */
+.leftcolumn {   
+  float: left;
+  width: 75%;
+}
+
+/* Right column */
+.rightcolumn {
+  float: left;
+  width: 25%;
+  background-color: #636363;
+  padding-left: 20px;
+}
+
+/* Fake image */
+.fakeimg {
+  background-color: #aaa;
+  width: 100%;
+  padding: 20px;
+}
+
+/* Add a card effect for articles */
+.card {
+  background-color: rgb(144, 176, 245);
+  padding: 20px;
+  margin-top: 20px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Footer */
+.footer {
+  padding: 20px;
+  text-align: center;
+  background: rgb(144, 176, 245);
+  margin-top: 20px;
+}
+
+/* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 800px) {
+  .leftcolumn, .rightcolumn {   
+    width: 100%;
+    padding: 0;
+  }
+}
+
+/* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
+@media screen and (max-width: 400px) {
+  .topnav a {
+    float: none;
+    width: 100%;
+  }
+}
+</style>
+</head>
+<link rel="stylesheet" href="style.css">
+<body>
+
+<div class="header">
+  <h1><i>Ryan Nix  </i>&#128169;</h1>
+  <p><B> </h3>&#128194;<em><u>Deze website gaat over Ryan Nix </u></em>&#128194; <h3> </B></p>
+</div>
+
+</div>
+
+<div class="row">
+  <div class="leftcolumn">
+    <div class="card">
+      <h2>Ryan Nix&#128269;</h2>
+      <h3>16-07-2004&#11088;</h3>
+      <img src="fiveM1.jpeg" id="fivem"> 
+      <p><b> <h2> Ryan's hobby's en lievelings games zijn&#127918;:</h2></b></p>
+      <p> Snowboarden, Skiën en FiveM spelen</p>
+    </div>
+    <div class="card">
+      <h2>Familie&#128106;</h2>
+    
+      <p>Ryan heeft 4 broers&#128102;, een vader &#128104;, moeder&#128105;, opa&#128116; & oma&#128117; en een oom.&#128113;</p>
+    
+    </div>
+  </div>
+  <div class="rightcolumn">
+    <div class="card">
+      <h2>schoolervaring&#128218;</h2>
+      <img src="brandenberg.jpg" id="school"> 
+      <p>Brandenberg Middelbaar&#128214; </p>
+    </div>
+    <div class="card">
+      <h3>contact&#128242;</h3>
+      <img src="contact.jpg" id="contact"> 
+      
+    </div>
+    <div class="card">
+      <h3>&#128232;ryan.revf@gmail.com</h3>
+      <p>&#128222;0621231090</p>
+      <p>&#9989;insta: Ryan.hrsfld</p>
+    </div>
+  </div>
+</div>
+
+<div class="footer">
+  <h1>&#128516;&#182;Website Ryan&#182;&#128516;</h1>
+</div>
+
+</body>
+</html>
